@@ -1,0 +1,67 @@
+
+main {
+    width: 80%;
+    margin: 50px auto 80px;
+    font-family: sans-serif;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  
+  form input,
+  form button {
+    line-height: 20px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 20px;
+  }
+  
+#Add {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    line-height: 30px;
+    display: grid;
+  }
+  
+#BtnAdd {
+    margin-top: 20px;
+}
+
+
+
+
+  @media (min-width: 768px) {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 10px;
+    }
+    .fas {
+      color: rgb(59, 91, 152);
+      width: 100px;
+      float: left;
+      
+    }
+  }
+
+
+
+
+
